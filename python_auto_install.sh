@@ -16,10 +16,10 @@ fi
 
 source venv/bin/activate
 
-pip install numpy
-pip install pandas
-pip install sklearn
-pip install matplotlib
+pip3 install numpy==1.18.4
+pip3 install pandas==0.21.0
+pip3 install scikit-learn
+pip3 install matplotlib
 pip install jinja2
 pip install joblib
 pip install jupyter

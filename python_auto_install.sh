@@ -10,16 +10,16 @@ apt install python-pip
 
 if [ ! -d "/venv" ] 
 then
-    apt-get install python3-venv
-    python3 -m venv venv
+    apt-get install python3.6-venv
+    python3.6 -m venv venv
 fi
 
 source venv/bin/activate
 
-pip3 install numpy==1.18.4
-pip3 install pandas==0.21.0
-pip3 install scikit-learn
-pip3 install matplotlib
+pip install numpy
+pip install pandas
+pip install sklearn
+pip install matplotlib
 pip install jinja2
 pip install joblib
 pip install jupyter
